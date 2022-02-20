@@ -17,7 +17,7 @@ function App() {
   return (
     <Fragment>
       <Header items={items} />
-      <MainSection />
+      <MainSection items={items} />
     </Fragment>
   );
 }
